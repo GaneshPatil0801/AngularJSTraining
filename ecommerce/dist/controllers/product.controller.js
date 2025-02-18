@@ -1,9 +1,8 @@
 var ProductController = /** @class */ (function () {
-    function ProductController($scope, $location, $routeParams, productService) {
+    function ProductController($scope, $location, $routeParams) {
         this.$scope = $scope;
         this.$location = $location;
         this.$routeParams = $routeParams;
-        this.productService = productService;
         this.message = 'Welcome to Shoppy!';
         this.catalogs = [
             {
@@ -117,8 +116,8 @@ var ProductController = /** @class */ (function () {
         return null; // Return null if product is not found
     };
     ;
-    ProductController.$inject = ['$scope', '$location', '$routeParams', 'ProductService'];
+    ProductController.$inject = ['$scope', '$location', '$routeParams'];
     return ProductController;
 }());
-export { ProductController };
+
 //angular.module('myApp').controller('MyController', MyController);

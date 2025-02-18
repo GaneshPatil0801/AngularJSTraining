@@ -34,4 +34,4 @@ var AuthController = /** @class */ (function () {
     AuthController.$inject = ['$scope', '$location'];
     return AuthController;
 }());
-export { AuthController };
+

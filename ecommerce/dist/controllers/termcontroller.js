@@ -6,4 +6,4 @@ var termcontroller = /** @class */ (function () {
     termcontroller.$inject = ['$scope'];
     return termcontroller;
 }());
-export { termcontroller };
+

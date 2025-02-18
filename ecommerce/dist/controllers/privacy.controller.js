@@ -6,4 +6,4 @@ var privacycontroller = /** @class */ (function () {
     privacycontroller.$inject = ['$scope'];
     return privacycontroller;
 }());
-export { privacycontroller };
+

@@ -6,4 +6,4 @@ var AboutController = /** @class */ (function () {
     AboutController.$inject = ['$scope'];
     return AboutController;
 }());
-export { AboutController };
+

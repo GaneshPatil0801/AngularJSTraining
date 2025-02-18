@@ -1,13 +1,4 @@
-import * as angular from "angular";
-import 'angular-route';
-import { ProductController } from "../controllers/product.controller";
-import { AuthController } from "../controllers/auth.controller";
-import { ShoppingCartController } from "../controllers/shopingcart.controller";
-import { AboutController } from "../controllers/about.controller";
-import { termcontroller } from "../controllers/termcontroller";
-import { privacycontroller } from "../controllers/privacy.controller";
-import { contactcontroller } from "../controllers/contact.controller";
-import { ProductService } from "../services/product.service";
+
 var appModule = angular.module('ecommerce', ['ngRoute']);
 appModule.config(['$routeProvider', function ($routeProvider) {
         $routeProvider
@@ -59,7 +50,7 @@ appModule.config(['$routeProvider', function ($routeProvider) {
             redirectTo: 'product' // Default route is home
         });
     }]);
-appModule.controller('ProductController', ProductController).service("ProductService", ProductService);
+appModule.controller('ProductController', ProductController);
 appModule.controller('AuthController', AuthController);
 appModule.controller('ShoppingCartController', ShoppingCartController);
 appModule.controller('AboutController', AboutController);

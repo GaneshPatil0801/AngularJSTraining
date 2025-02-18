@@ -24,5 +24,5 @@ var ShoppingCartController = /** @class */ (function () {
     ShoppingCartController.$inject = ['$scope'];
     return ShoppingCartController;
 }());
-export { ShoppingCartController };
+
 //angular.module('myApp').controller('MyController', MyController);
